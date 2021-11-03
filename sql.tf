@@ -12,7 +12,7 @@ resource "azurerm_sql_server" "example" {
   location                     = azurerm_resource_group.example.location
   version                      = "12.0"
   administrator_login          = "ariel"
-  administrator_login_password = "Aa12345678"
+  administrator_login_password = "Aa12345678!!!!"
   tags = merge({
     environment = var.environment
     terragoat   = "true"
